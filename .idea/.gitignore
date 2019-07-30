@@ -1,7 +1,0 @@
-# Default ignored files
-/workspace.xml
-.idea/.name
-.idea/misc.xml
-.idea/vcs.xml
-.idea/compiler.xml
-*/target/*.*

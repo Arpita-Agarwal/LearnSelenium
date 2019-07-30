@@ -2,12 +2,12 @@ package com.oracle.qa;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-//import org.testng.Assert;
-import java.util.concurrent.TimeUnit;
+
+import org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
 
 public class test1 {
     WebDriver driver;
@@ -105,7 +105,7 @@ driver.switchTo().window(OriginalHandle);*/
         WebDriverWait wait=new WebDriverWait(driver,10);
         WebElement alert=wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("alert")));
         String alerttext= alert.getText();
-      //  assertEquals("The form was successfully submitted!",alerttext);
+      assertEquals("The form was successfully submitted!",alerttext);
         driver.quit();
 
     }
