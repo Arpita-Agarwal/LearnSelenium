@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-31T05:43:16Z" name="Default Suite" finished-at="2019-07-31T05:43:18Z" duration-ms="1325">
+    <groups>
+    </groups>
+    <test started-at="2019-07-31T05:43:16Z" name="ramp" finished-at="2019-07-31T05:43:18Z" duration-ms="1325">
+      <class name="com.oracle.qa.ExtentReportDemo">
+        <test-method signature="testreport()[pri:0, instance:com.oracle.qa.ExtentReportDemo@42e99e4a]" started-at="2019-07-31T05:43:16Z" name="testreport" finished-at="2019-07-31T05:43:18Z" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testreport -->
+      </class> <!-- com.oracle.qa.ExtentReportDemo -->
+    </test> <!-- ramp -->
+  </suite> <!-- Default Suite -->
+</testng-results>
