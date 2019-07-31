@@ -99,7 +99,7 @@ driver.switchTo().window(OriginalHandle);*/
         WebElement fileuploadfield=driver.findElement(By.id("fileuploadfield"));
         fileuploadfield.sendKeys("test.png");*/
 
-        driver.get("https://formy-project.herokuapp.com/form");
+        /*driver.get("https://formy-project.herokuapp.com/form");
         FormPage formpage=new FormPage();
         formpage.submitform(driver);
         ConfirmationPage confirmpage=new ConfirmationPage();
@@ -107,7 +107,7 @@ driver.switchTo().window(OriginalHandle);*/
         confirmpage.waitforalert(driver);
         String alerttext= confirmpage.waitforbannertext(driver);
         assertEquals("The form was successfully submitted!",alerttext);
-        driver.quit();
+        driver.quit();*/
 
     }
 }

@@ -2,6 +2,8 @@
 
 <suite name="Suite1" verbose="1" >
     <test name="Regression1"   >
+        <parameter name="browserloc" value="/Users/loaner/Downloads/chromedriver"></parameter>
+        <parameter name="url" value="https://formy-project.herokuapp.com/autocomplete"></parameter>
         <classes>
             <class name="com.oracle.qa.testetsngflow" />
         </classes>
