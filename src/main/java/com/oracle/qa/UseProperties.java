@@ -17,7 +17,8 @@ public class UseProperties {
 
         System.setProperty("webdriver.chrome.driver", p5.getProperty("driverPath"));
         driver = new ChromeDriver();
-        driver.get(p8.getProperty("url"));
+
+        driver.get(p6.getProperty("url"));
 
     }
 
