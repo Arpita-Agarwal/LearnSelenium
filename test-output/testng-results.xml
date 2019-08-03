@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-07-31T13:25:27Z" name="Suite1" finished-at="2019-07-31T13:25:46Z" duration-ms="18411">
+  <suite started-at="2019-08-01T06:16:53Z" name="Suite1" finished-at="2019-08-01T06:17:08Z" duration-ms="14508">
     <groups>
     </groups>
-    <test started-at="2019-07-31T13:25:27Z" name="Regression1" finished-at="2019-07-31T13:25:46Z" duration-ms="18411">
+    <test started-at="2019-08-01T06:16:53Z" name="Regression1" finished-at="2019-08-01T06:17:08Z" duration-ms="14508">
       <class name="com.oracle.qa.testetsngflow">
-        <test-method is-config="true" signature="invoke_browser(java.lang.String)[pri:0, instance:com.oracle.qa.testetsngflow@52bf72b5]" started-at="2019-07-31T13:25:27Z" name="invoke_browser" finished-at="2019-07-31T13:25:30Z" duration-ms="2962" status="PASS">
+        <test-method is-config="true" signature="invoke_browser(java.lang.String)[pri:0, instance:com.oracle.qa.testetsngflow@2a798d51]" started-at="2019-08-01T06:16:53Z" name="invoke_browser" finished-at="2019-08-01T06:16:56Z" duration-ms="2620" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invoke_browser -->
-        <test-method signature="testForm(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.oracle.qa.testetsngflow@52bf72b5]" started-at="2019-07-31T13:25:32Z" name="testForm" data-provider="gettestdata" finished-at="2019-07-31T13:25:36Z" duration-ms="4401" status="PASS">
+        <test-method signature="testForm(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.oracle.qa.testetsngflow@2a798d51]" started-at="2019-08-01T06:16:57Z" name="testForm" data-provider="gettestdata" finished-at="2019-08-01T06:17:00Z" duration-ms="3708" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method signature="testForm(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.oracle.qa.testetsngflow@52bf72b5]" started-at="2019-07-31T13:25:36Z" name="testForm" data-provider="gettestdata" finished-at="2019-07-31T13:25:38Z" duration-ms="2348" status="PASS">
+        <test-method signature="testForm(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.oracle.qa.testetsngflow@2a798d51]" started-at="2019-08-01T06:17:00Z" name="testForm" data-provider="gettestdata" finished-at="2019-08-01T06:17:02Z" duration-ms="1935" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method signature="testForm(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.oracle.qa.testetsngflow@52bf72b5]" started-at="2019-07-31T13:25:38Z" name="testForm" data-provider="gettestdata" finished-at="2019-07-31T13:25:41Z" duration-ms="2514" status="PASS">
+        <test-method signature="testForm(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.oracle.qa.testetsngflow@2a798d51]" started-at="2019-08-01T06:17:02Z" name="testForm" data-provider="gettestdata" finished-at="2019-08-01T06:17:04Z" duration-ms="1817" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,7 +81,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method signature="testForm(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.oracle.qa.testetsngflow@52bf72b5]" started-at="2019-07-31T13:25:41Z" name="testForm" data-provider="gettestdata" finished-at="2019-07-31T13:25:43Z" duration-ms="2442" status="PASS">
+        <test-method signature="testForm(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.oracle.qa.testetsngflow@2a798d51]" started-at="2019-08-01T06:17:04Z" name="testForm" data-provider="gettestdata" finished-at="2019-08-01T06:17:06Z" duration-ms="1824" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,7 +102,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForm -->
-        <test-method signature="testAutocomplete(java.lang.String)[pri:2, instance:com.oracle.qa.testetsngflow@52bf72b5]" started-at="2019-07-31T13:25:43Z" name="testAutocomplete" finished-at="2019-07-31T13:25:45Z" duration-ms="1912" status="PASS">
+        <test-method signature="testAutocomplete(java.lang.String)[pri:2, instance:com.oracle.qa.testetsngflow@2a798d51]" started-at="2019-08-01T06:17:06Z" name="testAutocomplete" finished-at="2019-08-01T06:17:07Z" duration-ms="1474" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -113,7 +113,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAutocomplete -->
-        <test-method is-config="true" signature="quit_browser()[pri:0, instance:com.oracle.qa.testetsngflow@52bf72b5]" started-at="2019-07-31T13:25:45Z" name="quit_browser" finished-at="2019-07-31T13:25:46Z" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="quit_browser()[pri:0, instance:com.oracle.qa.testetsngflow@2a798d51]" started-at="2019-08-01T06:17:07Z" name="quit_browser" finished-at="2019-08-01T06:17:08Z" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit_browser -->

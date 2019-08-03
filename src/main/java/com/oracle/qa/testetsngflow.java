@@ -23,12 +23,12 @@ public class testetsngflow {
     @BeforeTest
     @Parameters({"browserloc"})
     public void invoke_browser(String browserloc) throws MalformedURLException {
-       // System.setProperty("webdriver.chrome.driver", browserloc);
-       // driver = new ChromeDriver();
-        String Node = "http://192.168.99.100:31825/wd/hub";
-        DesiredCapabilities cap = DesiredCapabilities.chrome();
+        System.setProperty("webdriver.chrome.driver", browserloc);
+        driver = new ChromeDriver();
 
-        driver = new RemoteWebDriver(new URL(Node), cap);
+        //String Node = "http://192.168.99.100:31825/wd/hub";
+        //DesiredCapabilities cap = DesiredCapabilities.chrome();
+        //driver = new RemoteWebDriver(new URL(Node), cap);
         //String huburl ="http://192.168.99.100:31825/wd/hub";
         //WebDriver driver=new RemoteWebDriver(new URL(huburl), options);
 
