@@ -11,12 +11,12 @@ public class UseProperties {
     public static void main(String[]args) throws Exception {
         WebDriver driver;
         FileReader reader = new FileReader("/Users/loaner/Applications/myProject/LearnSelenium/src/main/java/com/test/util/test.properties");
-        Properties p1 = new Properties();
-        p1.load(reader);
+        Properties p = new Properties();
+        p.load(reader);
 
-        System.setProperty("webdriver.chrome.driver", p1.getProperty("driverPath"));
+        System.setProperty("webdriver.chrome.driver", p.getProperty("driverPath"));
         driver = new ChromeDriver();
-        driver.get(p1.getProperty("url"));
+        driver.get(p.getProperty("url"));
     }
 
     }

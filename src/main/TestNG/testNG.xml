@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Suite1" "arpita "verbose="1" >
+<suite name="Suite1" verbose="1" >
     <test name="Regression1"   >
         <parameter name="browserloc" value="/Users/loaner/Downloads/chromedriver"></parameter>
         <parameter name="url" value="https://formy-project.herokuapp.com/autocomplete"></parameter>
